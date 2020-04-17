@@ -11,9 +11,11 @@ Plantilla básica para arrancar con la librería Tailwind CSS
 
 1. Descarga el repositorio
 2. Ejecuta `npm install` 
-3. Ejecuta `npm run build` (regenera `public/css/styles.css`)
 
-El último paso es opcional. Sólo tendrás que hacerlo si cambias la configuración de tailwind o postcss.
+A partir de ahí tienes dos opciones para generar el CSS si haces cambios en la configuración de tailwind:
+
+- Ejecuta `npm run build` si quieres regenerar `public/css/styles.css` manualmente.
+- Ejecuta `npm run watch` si quieres que se actualice con cada cambio.
 
 ## Recomendaciones
 
