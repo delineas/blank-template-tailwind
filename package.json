@@ -4,7 +4,8 @@
   "description": "Very basic starter for TailwindCSS",
   "main": "index.js",
   "scripts": {
-    "build": "postcss css/tailwind.css -o public/css/styles.css"
+    "build": "postcss css/tailwind.css -o public/css/styles.css",
+    "watch": "postcss css/tailwind.css -o public/css/styles.css --watch --verbose"
   },
   "keywords": [
     "tailwindcss"
