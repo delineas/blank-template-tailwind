@@ -1,0 +1,19 @@
+{
+  "name": "blank-template-tailwind",
+  "version": "1.0.0",
+  "description": "Very basic starter for TailwindCSS",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss css/tailwind.css -o public/styles/styles.css"
+  },
+  "keywords": [
+    "tailwindcss"
+  ],
+  "author": "Daniel Primo",
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "^9.7.6",
+    "postcss-cli": "^7.1.0",
+    "tailwindcss": "^1.2.0"
+  }
+}
