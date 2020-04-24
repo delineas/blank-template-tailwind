@@ -19,8 +19,22 @@ A partir de ahí tienes dos opciones para generar el CSS si haces cambios en la 
 
 ## Recomendaciones
 
+### Live Server
+
 Utilizar un servidor local que permita la recarga automática en cada cambio de los ficheros.
 
 Uso [live-server](https://www.npmjs.com/package/live-server).
 
 Con el comando: `live-server public --watch`
+
+### PurgeCSS
+
+La plantilla está preconfigurada para trabajar con PurgeCSS.
+
+La configuración puedes encontrarla en `postcss.config.js`.
+
+Para ejecutarlo: `NODE_ENV=production npm run build`
+
+Si cambiar el nombre a la carpeta `public` debes configurarlo.
+
+Para más información: [PurgeCSS](https://purgecss.com/configuration.html)
